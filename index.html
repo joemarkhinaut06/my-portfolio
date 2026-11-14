@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joe Mark O. Hinaut | IT Student</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <!-- FontAwesome para sa Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Background Elements -->
+  <div class="bg-grid"></div>
+  <div class="particles">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- ===== NAVBAR & LIVE CLOCK ===== -->
+  <nav class="navbar">
+    <div class="logo">&lt;JM<span>Hinaut</span>/&gt;</div>
+    
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- LIVE CLOCK -->
+    <div class="nav-clock">
+      <i class="fa-solid fa-stopwatch"></i>
+      <span id="nav-time">--:--:-- --</span>
+    </div>
+  </nav>
+
+  <!-- ===== HERO (Left Pic, Right Text) ===== -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      
+      <!-- LEFT: CIRCLE PROFILE PICTURE -->
+      <div class="hero-left">
+        <div class="profile-ring">
+          <div class="profile-pic-wrapper">
+            <img src="images/profile.jpg" alt="Joe Mark Hinaut" class="profile-pic" />
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: TEXT CONTENT -->
+      <div class="hero-right">
+        <p class="hero-greeting">&lt; hello_world /&gt;</p>
+        <h1 class="hero-name">Joe Mark O. Hinaut</h1>
+        <h2 class="hero-title">
+          <span class="typing">IT Student</span>
+        </h2>
+        
+        <p class="hero-desc">
+          I am a quiet and nonchalant person, but behind my reserved personality, I have a genuine interest and knowledge in the field of Information Technology. 
+          I enjoy exploring new ideas, developing my abilities, and gaining valuable experiences.
+        </p>
+        <p class="hero-desc sub-desc">
+          2nd Year — BS in Information Technology at Davao del Sur State College.
+        </p>
+
+        <!-- SOCIAL ICONS -->
+        <div class="social-links">
+          <a href="https://t.me/jmhinaut_20_05" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+          <a href="mailto:jmhinautcoc2006@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.facebook.com/JeyEmm.H.2006" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/jeokarm06/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <!-- BUTTON (Explore Only) -->
+        <div class="hero-btns">
+          <a href="#about" class="btn">Explore</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-text">
+      As for my future, I have two paths in mind: pursuing a career in Information Technology or becoming a Mechanic. Through my experience and knowledge gained from Matz Mechanic, I have also developed an interest in mechanical work. Whatever path I choose, my goal is to continue learning, improving my skills, and building a future through passion, dedication, and experience.
+    </p>
+  </section>
+
+  <!-- ===== HOBBIES (Gaming BG) ===== -->
+  <section id="hobbies" class="section section-hobbies">
+    <div class="section-bg-overlay"></div>
+    <div class="section-content">
+      <h2 class="section-title">Hobbies &amp; Interests</h2>
+      <div class="hobbies-grid">
+        <div class="hobby-card">
+          <span class="hobby-icon">🎮</span>
+          <h4>Gamer</h4>
+        </div>
+        <div class="hobby-card">
+          <span class="hobby-icon">📻</span>
+          <h4>Amateur Radio Operator</h4>
+        </div>
+        <div class="hobby-card">
+          <span class="hobby-icon">🎭</span>
+          <h4>Cosplay</h4>
+        </div>
+        <div class="hobby-card">
+          <span class="hobby-icon">🏁</span>
+          <h4>Legal Drag Race (4 Wheels)</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fa-solid fa-laptop-medical skill-icon"></i>
+        <h4>Basic PC/Laptop Troubleshooting</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-wrench skill-icon"></i>
+        <h4>Basic Diagnose Mechanic</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-sliders skill-icon"></i>
+        <h4>Audio Operator</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-video skill-icon"></i>
+        <h4>Video Operator</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EX / FORMER (Stage/Music BG) ===== -->
+  <section id="experience" class="section section-experience">
+    <div class="section-bg-overlay"></div>
+    <div class="section-content">
+      <h2 class="section-title">Ex / Former</h2>
+      <div class="experience-grid">
+        <div class="exp-card">
+          <i class="fa-solid fa-music exp-icon"></i>
+          <h4>Choir</h4>
+        </div>
+        <div class="exp-card">
+          <i class="fa-solid fa-keyboard exp-icon"></i>
+          <h4>Organist</h4>
+        </div>
+        <div class="exp-card">
+          <i class="fa-solid fa-headphones exp-icon"></i>
+          <h4>Technical (Video/Audio)</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact &amp; Visit</h2>
+    <div class="contact-grid">
+      <a href="https://t.me/jmhinaut_20_05" target="_blank" class="contact-card">
+        <i class="fa-brands fa-telegram contact-icon"></i>
+        <div>
+          <h4>Telegram</h4>
+          <p>@jmhinaut_20_05</p>
+        </div>
+      </a>
+
+      <a href="mailto:jmhinautcoc2006@gmail.com" class="contact-card">
+        <i class="fa-solid fa-envelope contact-icon"></i>
+        <div>
+          <h4>Gmail</h4>
+          <p>jmhinautcoc2006@gmail.com</p>
+        </div>
+      </a>
+
+      <a href="https://www.facebook.com/JeyEmm.H.2006" target="_blank" class="contact-card">
+        <i class="fa-brands fa-facebook contact-icon"></i>
+        <div>
+          <h4>Facebook</h4>
+          <p>JeyEmm.H.2006</p>
+        </div>
+      </a>
+
+      <a href="https://www.instagram.com/jeokarm06/" target="_blank" class="contact-card">
+        <i class="fa-brands fa-instagram contact-icon"></i>
+        <div>
+          <h4>Instagram</h4>
+          <p>@jeokarm06</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2026 Joe Mark O. Hinaut — Built with <span class="heart">❤</span> at DSSC</p>
+  </footer>
+
+  <!-- ===== LIVE CLOCK SCRIPT ===== -->
+  <script>
+    function updateClock() {
+      const now = new Date();
+      let time = now.toLocaleTimeString('en-US', {
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: true
+      });
+      document.getElementById('nav-time').textContent = time;
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+  </script>
+
+</body>
+</html>
